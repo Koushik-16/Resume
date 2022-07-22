@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+       *{
+        margin: 0px;
+        margin-left: 10px;
+        padding: 1px;
+        font-family:  sans-serif;
+       }
+        #photo {
+            height: 90px;
+            width: 90px;
+            border-radius: 50px;
+            margin: 5px;
+            margin-left: 50px;
+            padding: 5px;
+
+        }
+
+        .top {
+            display: flex;
+        }
+
+        .education {
+            margin-top: 8px;
+        }
+
+
+        #name {
+            margin-top: 50px;
+            font-family:  sans-serif;
+            font-size: 20px;
+        }
+        #linkedin{
+            text-decoration: none;
+            color: rgb(67, 66, 128);
+        }
+
+        .education ul li p {
+            margin-left: 20px;
+        }
+
+        .education span {
+            margin-left: 50px;
+        }
+
+        .education ul li{
+            margin-left: 15px;
+        }
+        .ins li {
+            padding: 5px;
+        }
+
+        .projects ul li {
+           
+            margin-left: 50px;
+            margin-top: 10px;
+            margin-right: 10%;
+        
+        }
+
+        #cgpa{
+            margin-left: 31px;
+        }
+
+
+        hr{
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+        .skills ul li{
+            margin-left: 40px;
+        }
+
+        .coding ul li {
+            margin-left: 50px;
+        }
+
+        .achieve ul li {
+            margin-left: 50px;
+        }
+
+        
+
+
+    </style>
+</head>
+<body>
+    <div class ="top">
+       <img id="photo" src="logo.jpg" alt="Error">
+       <span id="name"><strong>KOUSHIK DANDAPAT</strong></span>
+    </div>
+    <div>
+        <p>Email : koushikdandapat16@gamil.com</p>
+        <p>Mobile : 6295446784</p>
+        <p>Address : Karnagarh ,Paschim Medinipur ,721129</p>
+        <a  id="linkedin" href="https://www.linkedin.com/in/koushik-dandapat-88211821b/">Linkedin</a>
+    </div>
+
+
+   <div class="education">
+      <h3>EDUCATION</h3>
+      <hr size="" color="black" width="90%">
+     <ul class="ins">
+        <li> <strong>Ramkrishna Mahato Government Engineering College </strong>
+              <p><strong>B .Tech in Computer Science & Engineering</strong> , (2020 - 2024)</p>
+              <p id="cgpa">CGPA - 9.54</p>
+
+        
+        </li>
+        <li> <strong>Midnapore Collegiate School </strong> , (2012 - 2020)
+           <br>
+           <ul type = "disc">
+               <li><strong>class XII - </strong> 86.6%</li>
+               <li><strong>class X - </strong> 85.5%</li>
+           </ul>
+        </li>
+     </ul>
+
+   </div>
+
+   <div class="projects">
+       <h3>PROJECTS</h3>
+       <hr size="" color="black" width="90%">
+       <h4>Notes Application :</h4>
+       <ul>
+        <li>Developed a notes app to keep user’s notes in one place . Used Cloud Firestore database to store notes . 
+            Includes user authentication (Firebase). User can get back all notes after log in with email and password.
+            User can register , sign in, logout ,change password.</li>
+
+            <li>Used Recycler View to show all notes.</li>
+
+            <li>User can edit & delete notes.</li>
+       </ul>
+       <p>Link : <a href="https://github.com/Koushik-16/Notes-Application">Click Here</a></p>
+       <br>
+
+       <h4>News Application :</h4>
+       <ul>
+        <li>It shows news from the internet inside a Recycler View by API calling ( Volley Library ).</li>
+
+            <li>Shows news related images inside Recycler View using Glide Library.</li>
+
+            <li>If user clicks on a news a Custom Chrome Tab opens inside the app , then user can read the whole article.</li>
+       </ul>
+       <p>Link : <a href="https://github.com/Koushik-16/NewsApp">Click Here</a></p>
+
+
+
+   </div>
+
+   <br>
+
+   <div class="skills">
+    <h3>SKILLS</h3>
+    <hr size="" color="black" width="90%">
+
+    <ul>
+
+        <li><strong>JAVA</strong></li>
+        <li><strong>C</strong></li>
+        <li><strong>Android Studio</strong></li>
+        <li><strong>Firebase</strong></li>
+        <li><strong>Git & Github</strong></li>
+        <li><strong>HTML</strong></li>
+        <li><strong>CSS</strong></li>
+        
+    </ul>
+
+    <p>Also familiar with<strong>Kotlin</strong></p>
+
+   </div>
+
+  <br>
+
+   <div class="coding">
+    <h3>CODING PROFILES</h3>
+    <hr size="" color="black" width="90%">
+
+    <ul>
+        <li>Leetcode – 600 + question solved <a href="https://leetcode.com/Koushikdandapat/">See Profile</a> </li>
+        <li>Codechef – Rating - 1717 (3 star) <a href="https://www.codechef.com/users/koushik16">See Profile</a></li>
+        <li>CodeForces - Pupil , Rating – (1218) <a href="https://codeforces.com/profile/Koushik16">See Profile</a></li>
+    </ul>
+
+   </div>
+
+   <br>
+
+   <div  class="achieve">
+    <h3>ACHIEVEMENTS</h3>
+    <hr size="" color="black" width="90%">
+
+    <ul>
+        <li>Secured global rank 7879 in Google Codejam 2022 round 1A. <a href="https://drive.google.com/file/d/1rJfJINA1U-C_pczVxWXMjejtDw2DnQR7/view">Certificate</a>
+        </li>
+        <li>Secured global rank 141 in Codechef June lunchtime 2022 division 3.</li>
+        <li>Secured global rank 1707 in Leetcode weekly 299 contest among 23000 participants.</li>
+    </ul>
+
+   </div>
+ 
+</body>
+</html>
